@@ -1,0 +1,12 @@
+dzmitry 789
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps
+http://stackoverflow.com/questions/6448242/git-push-error-insufficient-permission-for-adding-an-object-to-repository-datab
+http://git-scm.com/book/en/v1/Git-on-the-Server-Setting-Up-the-Server
+
+cd git_repo
+git init
+type > 1.txt
+git add .
+git commit -m 'First commit'
+git remote add origin git@dzmitry.cloudapp.net:/opt/git/project.git
+
