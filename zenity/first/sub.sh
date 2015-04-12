@@ -1,3 +1,5 @@
+#!/bin/sh
+
 num1=$(zenity --entry --title='substitution' --text='enter first number')
 echo $num1
 echo '-'

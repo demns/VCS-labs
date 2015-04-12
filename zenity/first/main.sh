@@ -1,1 +1,4 @@
-zenity --question --title="Linuxaria introduction to Zenity" --text "Are you sure you want to shutdown?"
+#!/bin/sh
+
+#sh $('zenity --file-selection --title="Select a File"')
+sh -c 'sh $(zenity --file-selection)' 
