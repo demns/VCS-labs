@@ -1,6 +1,23 @@
 #!/bin/sh
 
-operation=$(zenity --list --text "Select an operation" --radiolist --column "Pick" --column "Operation" --column "File" TRUE add addition FALSE sub subtraction FALSE mul multiplication FALSE div division FALSE mod modulo FALSE neg negation FALSE con conjunction FALSE dis disjunction FALSE pow power FALSE sqrt "square root" FALSE exp exponentiation FALSE sin sine FALSE cos cosine FALSE log logarithm)'.sh'; 
+operation=$(
+	zenity --list 				\
+ 	--title="Choose your OS" 		\
+ 	--column="Operation" 	--column 'File' \
+	add 			addition 	\
+	sub 			subtraction 	\
+	mul			multiplication 	\
+	div 			division 	\
+	mod 			modulo 		\
+	neg 			negation 	\
+	con 			conjunction 	\
+	dis 			disjunction 	\
+	pow 			power 		\
+	sqrt 			"square root" 	\
+	exp 			exponentiation 	\
+	sin 			sine 		\
+	cos			cosine 		\
+	log 			logarithm
+)'.sh'
 
 sh $operation
-
