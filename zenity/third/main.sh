@@ -2,6 +2,8 @@
 
 operation=$(
 	zenity --list 				\
+	--height=450				\
+	--width=200				\
  	--title="Choose your OS" 		\
  	--column="Operation" 	--column 'File' \
 	add 			addition 	\
