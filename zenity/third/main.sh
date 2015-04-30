@@ -4,7 +4,7 @@ operation=$(
 	zenity --list 				\
 	--height=450				\
 	--width=200				\
- 	--title="Choose your OS" 		\
+ 	--title="Choose your operation" 	\
  	--column="Operation" 	--column 'File' \
 	add 			addition 	\
 	sub 			subtraction 	\
