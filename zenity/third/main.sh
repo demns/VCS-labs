@@ -12,7 +12,7 @@ operation=$(
 	div 			division 	\
 	mod 			modulo 		\
 	neg 			negation 	\
-	con 			conjunction 	\
+	conj 			conjunction 	\
 	dis 			disjunction 	\
 	pow 			power 		\
 	sqrt 			"square root" 	\
