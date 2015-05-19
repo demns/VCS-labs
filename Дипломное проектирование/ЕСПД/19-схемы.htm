@@ -1,0 +1,641 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>оформление схем</title>
+</head>
+
+<body>
+<b>
+<p ALIGN="CENTER"> <font size="2">3. </font><font face="Times New Roman" size="2">ОФОРМЛЕНИЕ 
+  СХЕМ АЛГОРИТМОВ, ПРОГРАММ И ДАННЫХ</font></p>
+<font FACE="Times New Roman" SIZE="4">
+<i>
+
+<p ALIGN="CENTER"><font size="2">3.1. Общие положения</font></p>
+</i></font></b><font FACE="Times New Roman" SIZE="4">
+
+<p ALIGN="JUSTIFY"><font size="2">Все схемы выполняются карандашом или тушью в 
+  соответствии с правилами, установленными ГОСТ2.708-81. У каждого чертежа должна 
+  быть рамка и собственная основная надпись (угловой штамп). На чертеже формата 
+  А1 должно быть примерно 35-40 блоков.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">Условные графические обозначения в схемах выполняются 
+  по ГОСТ 19.701-90 “ЕСПД. Схемы алгоритмов, программ, данных и систем. Условные 
+  обозначения и правила выполнения”, в соответствии с ним:</font></p>
+<p ALIGN="JUSTIFY"><font size="2">1. Схемы алгоритмов, программ, данных и систем 
+  (далее — схемы) состоят из имеющих заданное значение символов, краткого пояснительного 
+  текста и соединяющих линий.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">2. Схемы могут использоваться на различных уровнях 
+  детализации, причем число уровней зависит от размеров и сложности задачи обработки 
+  данных. Уровень детализации должен быть таким, чтобы различные части и взаимосвязь 
+  между ними были понятны в целом.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">3. Определены символы, предназначенные для использования 
+  в документации по обработке данных, и приведено руководство по условным обозначениям 
+  для применения их в:</font></p>
+<p ALIGN="JUSTIFY"><font size="2">1) схемах данных;</font></p>
+<p ALIGN="JUSTIFY"><font size="2">2) схемах программ;</font></p>
+<p ALIGN="JUSTIFY"><font size="2">3) схемах работы системы;</font></p>
+<p ALIGN="JUSTIFY"><font size="2">4) схемах взаимодействия программ;</font></p>
+<p ALIGN="JUSTIFY"><font size="2">5) схемах ресурсов системы.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">4. Различают следующие понятия:</font></p>
+<p ALIGN="JUSTIFY"><font size="2">1) основной символ — символ, используемый в 
+  тех случаях, когда точный тип (вид) процесса или носителя данных неизвестен 
+  или отсутствует необходимость в описании фактического носителя данных;</font></p>
+<p ALIGN="JUSTIFY"><font size="2">2) специфический символ — символ, используемый 
+  в тех случаях, когда известен точный тип (вид) процесса или носителя данных 
+  или когда необходимо описать фактический носитель данных;</font></p>
+<p ALIGN="JUSTIFY"><font size="2">3) схема — графическое представление определения, 
+  анализа или метода решения задачи, в котором используются символы для отображения 
+  операций, данных, потока, оборудования и т. д.</font></p>
+</font><i><b>
+<p ALIGN="CENTER"> <font size="2">3</font><font face="Times New Roman" size="2">.2. 
+  Описание схем</font></p>
+</b></i> 
+<p ALIGN="JUSTIFY"> <font face="Times New Roman" size="2"><i>Схема данных </i>отображает 
+  путь данных при решении задач и определяет этапы обработки, а также различные 
+  применяемые носители данных. Схема данных состоит из символов данных, символов 
+  процессов, которые следует выполнять над данными, символов линий, указывающих 
+  потоки данных между процессами и носителями данных.</font></p>
+<font FACE="Times New Roman" SIZE="4">
+<p ALIGN="JUSTIFY"> <font size="2"><i>Схема программы</i> отображает последовательность 
+  операций в программе. Схема состоит из символов процесса, указывающих фактические 
+  операции обработки данных (включая символы, определяющие путь, которого следует 
+  придерживаться с учетом логических условий), линейных символов, указывающих 
+  поток управления.</font></p>
+<p ALIGN="JUSTIFY"> <font size="2"><i>Схема работы системы </i>отображает управление 
+  операциями и поток данных в системе. Схема состоит из символов данных или носителей 
+  данных, символов процесса, указывающих операции, которые следует выполнить над 
+  данными, а также определяющих логический путь, которого следует придерживаться, 
+  линейных символов, указывающих потоки данных между процессами и носителями информации, 
+  а также поток управления между процессами.</font></p>
+<p ALIGN="JUSTIFY"> <font size="2"><i>Схема взаимодействия программ </i>отображает 
+  путь активации программ и взаимодействий с соответствующими данными. Схема состоит 
+  из символов данных, указывающих на наличие данных, символов процесса, указывающих 
+  на операции над данными, линейных символов, отображающих поток между процессами 
+  и данными, а также инициализации процессов.</font></p>
+<p ALIGN="JUSTIFY"> <font size="2"><i>Схема ресурсов системы </i>отображает конфигурацию 
+  блоков данных и обрабатывающих блоков, которые требуются для решения задачи 
+  или набора задач. Схема состоит из символов данных, отображающих входные, выходные 
+  и запоминающие устройства вычислительной машины, символов процесса, отображающих 
+  процессоры, линейных символов, отображающих передачу данных между устройствами 
+  ввода-вывода и процессорами, а также передачу управления между процессорами.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">Символы в схемах должны быть расположены равномерно. 
+  Следует придерживаться минимального числа длинных линий. Символы должны быть 
+  по возможности одного размера. Они могут быть вычерчены в любой ориентации, 
+  но по возможности предпочтительной является горизонтальная ориентация. Текст 
+  для чтения должен записываться слева направо и сверху вниз независимо от направления 
+  потока. Если объем текста, помещаемого внутри символа, превышает его размеры, 
+  следует использовать символ комментария.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">Потоки данных или потоки управления в схемах 
+  показываются линиями. Направление потока слева направо и сверху вниз считается 
+  стандартным. В случае, когда необходимо внести большую ясность в схему, на линиях 
+  используются стрелки. Если поток имеет направление, отличное от стандартного, 
+  стрелки должны указывать это направление обязательно. Линии в схемах должны 
+  подходить к символу либо слева, либо сверху, а исходить либо справа, либо снизу. 
+  Линии должны быть направлены к центру символа. </font></p>
+<p ALIGN="JUSTIFY"><font size="2">Примеры записи названий документов в основной 
+  надписи:</font></p>
+<ul>
+  <li><font size="2">“СИСТЕМА ПО СБЫТУ ПРОДУКЦИИ. Схема данных.”</font></li>
+  <li><font size="2">“ПРОГРАММА РАСЧЕТА ЗАРПЛАТЫ. Схема программы.”</font></li>
+  <li><font size="2">“СИСТЕМА УЧЕТА ОСНОВНЫХ ФОНДОВ. Схема работы системы.”</font></li>
+  <li><font size="2">“СИСТЕМА ПО СБЫТУ ПРОДУКЦИИ. Схема взаимодействия программ.”</font></li>
+  <li><font size="2">“СИСТЕМА ПО СБЫТУ ПРОДУКЦИИ. Схема ресурсов системы.”</font></li>
+</ul>
+<i><b>
+<p ALIGN="CENTER"><font size="2">3.3. Правила применения символов и выполнения 
+  схем.</font></p>
+</b></i> 
+<dir> 
+  <p ALIGN="JUSTIFY"><font size="2">1.Правила применения символов</font></p>
+</dir>
+<p ALIGN="JUSTIFY"><font size="2">1.1. Символ предназначен для графической идентификации 
+  функции, которую он отображает, независимо от текста внутри этого символа.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">1.2. Символы в схеме должны быть расположены 
+  равномерно. Следует придерживаться разумной длины соединений и минимального 
+  числа длинных линий.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">1.3. Большинство символов задумано так, чтобы 
+  дать возможность включения текста внутри символа. Формы символов, установленные 
+  настоящим стандартом, должны служить руководством для фактически используемых 
+  символов. Не должны изменяться углы и другие параметры, влияющие на соответствующую 
+  форму символов. Символы должны быть, по возможности, одного размера.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">Символы могут быть вычерчены в любой ориентации, 
+  но, по возможности, предпочтительной является горизонтальная ориентация. Зеркальное 
+  изображение формы символа обозначает одну и ту же функцию, но не является предпочтительным.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">1.4. Минимальное количество текста, необходимого 
+  для понимания функции данного символа, следует помещать внутри данного символа. 
+  Текст для чтения должен записываться слева направо и сверху вниз независимо 
+  от направления потока.</font></p>
+</font> 
+<dir><font FACE="Times New Roman" SIZE="4"><b>
+  <p ALIGN="JUSTIFY"><font size="2">Пример.</font></p>
+  </b></font><font SIZE="4">
+  <p ALIGN="center"><img src="Graph/ris3.gif" width="321" height="206"
+  alt="ris3.bmp (9126 bytes)"></p>
+</font></dir>
+<font FACE="Times New Roman" SIZE="4">
+
+<p ALIGN="JUSTIFY"><font size="2">Если объем текста, помещаемого внутри символа, 
+  превышает его размеры, следует использовать символ комментария.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">Если использование символов комментария может 
+  запутать или разрушить ход схемы, текст следует помещать на отдельном листе 
+  и давать перекрестную ссылку на символ.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">1.5. В схемах может использоваться идентификатор 
+  символов. Это связанный с данным символом идентификатор, который определяет 
+  символ для использования в справочных целях в других элементах документации 
+  (например, в листинге программы). Идентификатор символа должен располагаться 
+  слева над символом.</font></p>
+<dir> <b>
+  <p ALIGN="JUSTIFY"><font size="2">Пример.</font></p>
+  </b></dir>
+<p ALIGN="center"><img src="Graph/ris4.gif" width="322" height="135" alt="ris4.bmp (6002 bytes)"></p>
+</font>
+
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="2">1.6. В схемах может использоваться 
+  описание символов — любая другая информация, например, для отображения специального 
+  применения символа с перекрестной ссылкой, или для улучшения понимания функции 
+  как части схемы. Описание символа должно быть расположено справа над символом.</font></p>
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="2"><b>Пример.</b></font></p>
+<font FACE="Times New Roman" SIZE="4">
+
+
+<p ALIGN="center"><img src="Graph/ris5.gif" width="420" height="114" alt="ris5.bmp (6446 bytes)"></p>
+
+<p ALIGN="JUSTIFY"><font size="2">1.7. В схемах работы системы символы, отображающие 
+  носители данных, во многих случаях представляют способы ввода-вывода. Для использования 
+  в качестве ссылки на документацию-текст на схеме для символов, отображающих 
+  способы вывода, должен размещаться справа над символом, а текст для символов, 
+  отображающих способы ввода — справа под символом.</font></p>
+<b>
+
+<p ALIGN="JUSTIFY">&nbsp;</p>
+</b></font>
+<dir><font FACE="Times New Roman" SIZE="4"><b>
+  <p ALIGN="JUSTIFY"><font size="2">Пример.</font></p>
+  </b></font><font SIZE="4">
+  <p ALIGN="center"><img src="Graph/ris6.gif" width="228" height="142"
+  alt="ris6.bmp (4606 bytes)"></p>
+</font></dir>
+<font FACE="Times New Roman" SIZE="4">
+
+<p ALIGN="JUSTIFY"><font size="2">1.8. В схемах может использоваться подробное 
+  представление, которое обозначается с помощью символа с полосой для процесса 
+  или данных. Символ с полосой указывает, что в этом же комплекте документации 
+  в другом месте имеется более подробное представление.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">Символ с полосой представляет собой любой символ, 
+  внутри которого в верхней части проведена горизонтальная линия. Между этой линией 
+  и верхней линией символа помещен идентификатор, указывающий на подробное представление 
+  данного символа.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">В качестве первого и последнего символа подробного 
+  представления должен быть использован символ указателя конца. Первый символ 
+  указателя конца должен содержать ссылку, которая имеется также в символе с полосой.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">2. Правила выполнения соединений </font></p>
+<p ALIGN="JUSTIFY"><font size="2">2.1. Потоки данных или потоки управления в схемах 
+  показываются линиями. Направление потока слева направо и сверху вниз считается 
+  стандартным.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">В случаях, когда необходимо внести большую ясность 
+  в схему (например, при соединениях), на линиях используются стрелки. Если поток 
+  имеет направление, отличное от стандартного, стрелки должны указывать это направление.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">2.2. В схемах следует избегать пересечения линий. 
+  Пересекающиеся линии не имеют логической связи между собой, поэтому изменения 
+  направления в точках пересечения не допускаются.</font></p>
+</font> 
+<dir> 
+  <p ALIGN="JUSTIFY"><font face="Times New Roman" size="2"><b>Пример.</b></font></p>
+</dir>
+<font FACE="Times New Roman" SIZE="4">
+<p align="center"><img src="Graph/ris7.gif" width="128" height="92" alt="ris7.bmp (1534 bytes)"></p>
+
+<p><font size="2">2.3. Две или более входящие линии могут объединяться в одну 
+  исходящую линию. Если две или более линии объединяются в одну линию, место объединения 
+  должно быть смещено. </font> 
+</font> 
+<dir> 
+  <p ALIGN="JUSTIFY"><font face="Times New Roman" size="2"><b>Пример.</b></font></p>
+</dir><font FACE="Times New Roman" SIZE="4">
+
+
+<p align="center"><img src="Graph/ris8.gif" width="145" height="92" alt="ris8.bmp (1902 bytes)"></p>
+
+<p><font size="2">2.4. Линии в схемах должны подходить к символу либо слева, либо 
+  сверху, а исходить либо справа, либо снизу. Линии должны быть направлены к центру 
+  символа.</font></p>
+<p ALIGN="JUSTIFY"><font size="2">2.5. При необходимости линии в схемах следует 
+  разрывать для избежания излишних пересечений или слишком длинных линий, а также, 
+  если схема состоит из нескольких страниц. Соединитель в начале разрыва называется 
+  внешним соединителем, а соединитель в конце разрыва — внутренним соединителем.</font></p>
+</font> 
+<p ALIGN="JUSTIFY"><font face="Times New Roman" size="2">2.6. Ссылки к страницам 
+  могут быть приведены совместно с символом комментария для их соединителей</font><font size="2">.</font></p>
+<dir> <font FACE="Times New Roman" SIZE="4"><b>
+  <p ALIGN="JUSTIFY"><font size="2">Пример.</font></p>
+  </b> 
+  <p ALIGN="JUSTIFY"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    Внешний соединитель &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    Внутренний соединитель</font></p>
+  </font> 
+  <p ALIGN="center"><font FACE="Times New Roman" SIZE="4"><img src="Graph/ris9.gif"
+  width="500" height="71" alt="ris9.bmp (4606 bytes)"></font></p>
+  <p ALIGN="JUSTIFY"><font face="Times New Roman" size="2">3. Специальные условные 
+    обозначения</font></p>
+  <p ALIGN="JUSTIFY"><font size="2">3.1. </font><font face="Times New Roman" size="2"><i>Несколько 
+    выходов</i></font></p>
+  <font FACE="Times New Roman" SIZE="4">
+  <p ALIGN="JUSTIFY"><font size="2">3.1.1. Несколько выходов из символа следует 
+    показывать:</font></p>
+  </font></dir>
+<font FACE="Times New Roman" SIZE="4">
+<p ALIGN="JUSTIFY"><font size="2">1) несколькими линиями от данного символа к 
+  другим символам;</font></p>
+<p ALIGN="JUSTIFY"><font size="2">2) одной линией от данного символа, которая 
+  затем разветвляется в соответствующее число линий.</font></p>
+</font> 
+<dir> 
+  <p ALIGN="JUSTIFY"><font face="Times New Roman" size="2"><b>Примеры.</b></font></p>
+  
+</dir>
+<font FACE="Times New Roman" SIZE="4">
+
+<p ALIGN="center"><img src="Graph/ris10.gif" width="464" height="125"
+alt="ris10.bmp (7562 bytes)"></p>
+
+<p ALIGN="JUSTIFY"><font size="2">3.1.2. Каждый выход из символа должен сопровождаться 
+  coj ответствующими значениями условий, чтобы показать логический путь, который 
+  он представляет, с тем, чтобы эти условия и соответствующие ссылки были идентифицированы.</font></p>
+</font> 
+<dir><font FACE="Times New Roman" SIZE="4"><b>
+  <p ALIGN="JUSTIFY"><font size="2">Примеры.</font></p>
+  </b></font><font SIZE="4">
+  <p ALIGN="center"><img src="Graph/ris11.gif" width="210" height="125"
+  alt="ris11.bmp (3562 bytes)"></p>
+  </font><font FACE="Arial" SIZE="4">
+  <p ALIGN="JUSTIFY"><font size="3">3<font size="2">.2. <i>Повторяющееся представление</i></font></font></p>
+  </font></dir>
+<font FACE="Times New Roman" SIZE="4">
+<p ALIGN="JUSTIFY"><font size="2">3.2.1. Вместо одного символа с соответствующим 
+  текстом могут быть использованы несколько символов с перекрытием изображения, 
+  каждый из которых содержит описательный текст (использование или формирование 
+  нескольких носителей данных или файлов, производство множества копий печатных 
+  отчетов или форматов перфокарт).</font></p>
+<p ALIGN="JUSTIFY"><font size="2">3.2.2. Когда несколько символов представляют 
+  упорядоченное множество, это упорядочение должно располагаться от переднего 
+  (первого) к заднему (последнему).</font></p>
+<p ALIGN="JUSTIFY"><font size="2">3.2.3. Линии могут входить или исходить из любой 
+  точки перекрытых символов, однако требования п. 2.4 должны соблюдаться. Приоритет 
+  или последовательный порядок нескольких символов не изменяется посредством точки, 
+  в которой линия входит или из которой исходит.</font></p>
+<p ALIGN="CENTER"><font size="2">Применение символов</font></p>
+</font> 
+<table BORDER="1" CELLSPACING="1" CELLPADDING="7" WIDTH="642">
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP" HEIGHT="91"><strong><font face="Times New Roman" size="2">Символ</font></strong></td>
+    <td WIDTH="21%" VALIGN="TOP" HEIGHT="91"><strong><font face="Times New Roman" size="2">Наименование 
+      символа</font></strong></td>
+    <td WIDTH="7%" VALIGN="TOP" HEIGHT="91"><strong><font face="Times New Roman" size="2">Схема 
+      данных</font></strong></td>
+    <td WIDTH="7%" VALIGN="TOP" HEIGHT="91"><strong><font face="Times New Roman" size="2">Схема 
+      прогр.</font></strong></td>
+    <td WIDTH="10%" VALIGN="TOP" HEIGHT="91"><strong><font face="Times New Roman" size="2">Схема 
+      раб. системы</font></strong></td>
+    <td WIDTH="10%" VALIGN="TOP" HEIGHT="91"><strong><font face="Times New Roman" size="2">Схема 
+      взаимод. программ</font></strong></td>
+    <td WIDTH="11%" VALIGN="TOP" HEIGHT="91"><strong><font face="Times New Roman" size="2">Схема 
+      ресурсов системы</font></strong></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font face="Times New Roman" size="2">Символы 
+      данных основные</font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2"></font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris12.gif" width="130" height="60"
+    alt="ris12.bmp (1262 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Данные</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris13.gif" width="117" height="67"
+    alt="ris13.bmp (1134 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Запоминаемые 
+      данные</font> 
+      <p><font size="2">&nbsp;</font>
+    </td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font face="Times New Roman" size="2">Специфические</font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2"></font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris14.gif" width="120" height="67"
+    alt="ris14.bmp (1134 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Оперативное 
+      запоминаю-<br>
+      щее устройство</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris15.gif" width="97" height="67"
+    alt="ris15.bmp (1134 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Запоминаю-щее 
+      устройство с последоват. выборкой</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris16.gif" width="101" height="74"
+    alt="ris16.bmp (1246 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Запоминаю-щее 
+      устройство с прямым доступом</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris17.gif" width="101" height="63"
+    alt="ris17.bmp (1070 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Документ</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris18.gif" width="123" height="64"
+    alt="ris18.bmp (1086 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Ручной 
+      ввод</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris19.gif" width="105" height="68"
+    alt="ris19.bmp (1150 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Карта</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris20.gif" width="101" height="63"
+    alt="ris20.bmp (1070 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Бумажная 
+      лента</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris21.gif" width="115" height="69"
+    alt="ris21.bmp (1166 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Дисплей</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font face="Times New Roman" size="2">Символы 
+      процесса основные</font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2"></font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris22.gif" width="108" height="63"
+    alt="ris22.bmp (1070 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Процесс</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris23.gif" width="107" height="60"
+    alt="ris23.bmp (1022 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Предопределенный 
+      процесс</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris24.gif" width="116" height="60"
+    alt="ris24.bmp (1022 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Ручная 
+      операция</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris25.gif" width="128" height="64"
+    alt="ris25.bmp (1086 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Подготовка</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris26.gif" width="143" height="60"
+    alt="ris26.bmp (1262 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Решение</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris27.gif" width="116" height="36"
+    alt="ris27.bmp (638 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Параллельные 
+      действия</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"> 
+      <p align="center"><font size="2"><img src="Graph/ris28.gif" width="96" height="84"
+    alt="ris28.bmp (1070 bytes)"> </font>
+    </td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Граница 
+      цикла</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font face="Times New Roman" size="2">Символы 
+      линий основные</font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2"></font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris29.gif" width="116" height="21"
+    alt="ris29.bmp (398 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Линия</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font face="Times New Roman" size="2">Специфические</font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2"></font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris30.gif" width="52" height="50"
+    alt="ris30.bmp (462 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Передача 
+      управления</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris31.gif" width="100" height="50"
+    alt="ris31.bmp (862 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Канал связи</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris32.gif" width="138" height="35"
+    alt="ris32.bmp (762 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Пунктирная 
+      линия</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font face="Times New Roman" size="2">Специфические 
+      символы</font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2"></font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2"></font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"> 
+      <p align="center"><font size="2"><img src="Graph/ris33.gif" width="57" height="48"
+    alt="ris33.bmp (446 bytes)"> </font>
+    </td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Соединитель</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"> 
+      <p align="center"><font size="2"><img src="Graph/ris34.gif" width="118"
+    height="48" alt="ris34.bmp (830 bytes)"> </font>
+    </td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Терминатор</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">-</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">-</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris35.gif" width="96" height="50"
+    alt="ris35.bmp (662 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Комментарий</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+  <tr> 
+    <td WIDTH="35%" VALIGN="TOP"><font size="2"><img src="Graph/ris36.gif" width="155" height="29"
+    alt="ris36.bmp (642 bytes)"></font></td>
+    <td WIDTH="21%" VALIGN="TOP"><font face="Times New Roman" size="2">Пропуск</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="7%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="10%" VALIGN="TOP"><font size="2">+</font></td>
+    <td WIDTH="11%" VALIGN="TOP"><font size="2">+</font></td>
+  </tr>
+</table>
+<p ALIGN="JUSTIFY"> <font size="2">(</font><font face="Times New Roman" size="2">Знак 
+  &quot;+&quot; указывает, что символ используется в данной схеме, знак &quot;-&quot; 
+  - не используется).</font></p>
+
+</body>
+</html>
