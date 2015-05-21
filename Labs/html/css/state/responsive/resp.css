@@ -1,0 +1,3 @@
+@import url('360.css') screen and (max-width: 360px);
+@import url('768.css') screen and (min-width: 361px) and (max-width: 768px);
+@import url('1000.css') screen and (min-width: 769px) and (max-width: 1000px);

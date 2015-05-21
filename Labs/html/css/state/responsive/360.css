@@ -1,0 +1,271 @@
+body {
+    background-image: -webkit-repeating-linear-gradient(270deg, rgb(26, 198, 204), rgb(26, 198, 204) 7%, rgb(100, 100, 100) 10%);
+    background-image: repeating-linear-gradient(180deg, rgb(26, 198, 204), rgb(26, 198, 204) 7%, rgb(100, 100, 100) 10%);
+}
+
+section {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.trending__card {
+    background: white;
+    width: initial;
+    height: initial;
+    padding: 1px 15px 5px 15px;
+    margin: 0 0 30px 0;
+}
+
+.trending__card img {
+    float: none;
+    width: 200px;
+    padding-right: 0;
+    max-width: 100%;
+    width: 120%;
+}
+
+.trending__card__text {
+    max-height: 1.2em;
+}
+
+.breaking {
+    height: inherit;
+    line-height: normal;
+}
+
+.triangular-rectangle {
+    margin-top: 10px;
+}
+
+.breaking__news p {
+    margin-left: auto;
+}
+
+.breaking__news:not(p) {
+    margin-top: 5px;
+    margin-left: auto;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.breaking__search {
+    float: inherit;
+    margin-bottom: 7px;
+    border: 0;
+}
+
+.breaking__search input {
+    line-height: 3em;
+    max-width: 160px;
+}
+
+.breaking__search button {
+    min-height: 50px;
+}
+
+.central__main-news {
+    padding-right: 0;
+}
+
+.central__main-news__picture {
+    padding-right: 0;
+    margin-right: 27px;
+    margin-bottom: 30px;
+    width: inherit;
+    height: inherit;
+}
+
+.central__main-news__picture img {
+    max-width: 100%;
+}
+
+.central__main-news__picture__sub-pictures {
+    padding: 0 0 0 10px;
+}
+
+.central__main-news__picture__sub-pictures img {
+    max-width: 20%;
+}
+
+.central__main-news__picture__sub-pictures img:not(:first-child) {
+    margin-left: 5px;
+}
+
+.central__most-popular {
+    width: inherit;
+    margin: 0 27px 30px 27px;
+    padding-bottom: 0;
+}
+
+.central .some {
+    margin-left: 27px;
+    margin-right: 27px;
+    width: inherit;
+}
+
+.some header p {
+    width: 100%;
+    margin: 0 0 0 0;
+    text-align: left;
+    padding: 20px 47px 20px 17px;
+}
+
+.some__news img {
+    float: none;
+    max-width: 100%;
+    width: 120%;
+}
+
+.hot-recent-stuff > header {
+    margin-bottom: 10px;
+}
+
+.hot-recent-stuff img {
+    max-width: 100%;
+}
+
+.hot-recent-stuff article:not(:last-child) {
+    margin-right: auto;
+}
+
+.hot-recent-stuff .recent-posts {
+    width: auto;
+    padding: 0;
+}
+
+.recent-posts .recent-posts__other img {
+    max-width: 100%;
+    width: 120%;
+    float: inherit;
+    padding: 0;
+}
+
+.categories {
+    padding: 0;
+}
+
+.categories section > header {
+    width: auto;
+}
+
+.categories div {
+    width: auto;
+}
+
+.categories .categories__news {
+    width: auto;
+    padding-right: 0;
+    margin-right: 27px;
+}
+
+.videos-news__main img {
+    max-width: 100%;
+}
+
+.categories .categories__news .recent-posts__other img {
+    max-width: 100%;
+    padding-right: 0;
+    width: 120%;
+    float: none;
+}
+
+.videos-news__main p.date {
+    float: none;
+}
+
+.fashion-news > header {
+    width: auto;
+}
+
+.categories .videos-news {
+    width: auto;
+    padding-right: 0;
+    margin-right: 27px;
+}
+
+.videos-news__main img {
+    max-width: 100%;
+}
+
+.recent-posts__other img {
+    max-width: 20%;
+}
+
+.all-news-gallery header .next,
+.all-news-gallery header .prev {
+    display: none;
+}
+
+.all-news-gallery > header {
+    margin-right: 0;
+}
+
+.all-news-gallery article:not(:last-child) {
+    margin-right: 0;
+}
+
+.all-news-gallery article img {
+    max-width: 100%;
+}
+
+.social .column {
+    max-width: 100%;
+    padding-right: 0;
+}
+
+.social article {
+    border-bottom: 1px solid lightgray;
+}
+
+.latest-news p img {
+    float: none;
+    max-width: 100%;
+}
+
+.latest-news p.categories__news {
+    max-height: 1.2em;
+}
+
+.categories__news__main img{
+    max-width: 100%;
+}
+
+.tag-cloud,
+.social-media {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.social .double-column {
+    max-width: 100%;
+    padding: 0 0 0 0;
+}
+
+.social .double-column .tag-cloud {
+    padding: 0 0 30px 0;
+}
+
+.social-media {
+    padding: 0;
+    width: 100%;
+}
+
+.social .double-column .about-magazine img {
+    max-width: 100%;
+}
+
+.social-media section {
+    display: inline;
+    border: 0;
+}
+
+.social-media >:last-child {
+    border: 0;
+}
+
+.about-magazine img {
+    border: 0;
+}
