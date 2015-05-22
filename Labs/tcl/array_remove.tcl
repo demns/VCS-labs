@@ -9,3 +9,4 @@ foreach name [array names colors] {
     puts "$name is $colors($name)"
 }
 
+
