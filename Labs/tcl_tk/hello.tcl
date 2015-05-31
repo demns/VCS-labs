@@ -3,7 +3,6 @@
 #
 # The global variable state is used to keep track of what the user has
 # done. It has several fields: Whether or not the last button was a
-# CE, the current value of the expression, the current value of the
 # entry window.
 
 proc doClear {} {
@@ -94,11 +93,7 @@ proc doSign {} {
     }
 }
 
-set state(result) "0."
-set state(entry) "0."
-set state(operation) ""
-set state(dot) 0
-set state(entrystarted) 0
+
 
 label .label -textvariable state(entry) -justify right -anchor e
 
@@ -106,18 +101,29 @@ foreach {number} {0 1 2 3 4 5 6 7 8 9} {
     set buttons($number) [button .$number -text $number \
 	    -command "doAppend $number"]
 }
-set buttons(clear) [button .clear -text C/CE -padx 1 -command "doClear"]
+
+
 foreach {label operation} {div / mult * minus - plus +} {
     set buttons($label) [button .$label -text $operation \
 	    -command "doOperation $operation"]
 }
+
+set state(result) "0."
+set state(entry) "0."
+set state(operation) ""
+set state(dot) 0
+set state(entrystarted) 0
+
 set buttons(dot) [button .dot -text . -command "doDot"]
 set buttons(sign) [button .sign -text +/- -padx 1 -command "doSign"]
 set buttons(equal) [button .equal -text = -command "doEqual"]
+set buttons(clear) [button .clear -text C/CE -padx 1 -command "doClear"]
 
 if [info exists embed_args] {
     grid propagate . false
 }
+
+#setting buttons by columns
 grid .label -column 0 -row 0 -columnspan 4 -sticky news
 grid $buttons(clear) $buttons(div) $buttons(mult) $buttons(minus) -sticky news
 grid $buttons(7) $buttons(8) $buttons(9) -sticky news
@@ -126,6 +132,4 @@ grid $buttons(1) $buttons(2) $buttons(3) -sticky news
 grid $buttons(0) $buttons(dot) $buttons(sign) -sticky news
 grid $buttons(plus) -column 3 -row 2 -rowspan 2 -sticky news
 grid $buttons(equal) -column 3 -row 4 -rowspan 2 -sticky news
-foreach row {1 2 3 4 5} {grid rowconfigure . $row -weight 1}
-foreach column {0 1 2 3} {grid columnconfigure . $column -weight 1}
 
